@@ -1,0 +1,45 @@
+Ruby on Rails, Javascript, Python, React, Redux, jQuery, SQL, HTML5, CSS, MVC, REST, TDD, Microsoft Office, VBA
+Kevin Hernon
+FizzBuzz 2.0 - A trivia game to test your development skills in a fun, Jeopardy-style way
++ Created a Rails 5 API back-end to interact with a React-Redux front-end 
++ Implemented Flux pattern to render the state and user interface
++ Incorporated Ajax get/post calls with ActiveRecord querying to create an analytics page comparing user performance and history
++ Authenticated users through JSON web-tokens on the client and server side
++ Employed the React Router library to allow new screens and data flows
+
+Get Your Newsic - Single-page application to get album, news, and concert information on musicians
++ Leveraged Javascript and jQuery to extract data from three external APIs
++ Applied MVC pattern to manage the information flow
++ Used the Handlebars JS library to create a flexible HTML page 
+
+ArtistBase - Display your work as an artist, make fans, and follow other artists work
++ Utilized Ruby on Rails and MVC pattern for the multi-page application
++ Used ActiveRecord queries to create recommendations based off the users current information
++ Employed test-driven development (TDD) to evaluate the advanced queries used
+
+Font Selector Chrome extension - Choose from a drop-down to dynamically see how different fonts look on your webpage
++ Applied Javascript and jQuery to display a dropdown selection box populated from Google Fonts API
++1 718-744-4135 | khernon1@gmail.com | github: khernon1 | LinkedIn
+TECHNICAL EXPERIENCE
+EMPLOYMENT HISTORY
+ETF Securities US LLC (Exchange-Traded Fund issuer), New York, NY
+Director - Product Management, September 2011 - April 2016
++ Managed a four-person team in New York and London responsible for the market activity of 300 exchange-traded funds (ETFs) globally with approximately $20 billion in assets under management
++ Utilized VBA and SQL to develop dynamic and complex Excel spreadsheets
++ Collaborated with the development team to build a complicated security pricing database that significantly reduced risk exposure for our partners
++ Involved in all aspects of new ETF launches, including market-maker and internal sales education, index design, listing process, raising seed capital, producing marketing materials, among other duties
+
+Lord Abbett & Co. LLC (Mutual Fund family), Jersey City, NJ
+Business Analyst - Systems Administration, December 2009 - September 2011
++ Streamlined processes and reduced probability of human error by applying knowledge of multiple trading and accounting systems and their capabilities
+
+GNY Insurance Companies, New York, NY
+Junior Underwriter, December 2008 - December 2009
++ Analyzed insurance applications and utilized proprietary software to properly value risks
+EDUCATION
+Flatiron School - New York, NY - August 2016 
++ Full Stack Web Development, Ruby on Rails and JavaScript
+
+Iona College - New Rochelle, NY - February 2009
++ Bachelor of Business Administration, Finance
+TECHNICAL SKILLS
