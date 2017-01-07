@@ -17,7 +17,7 @@ def index(request):
 
   with open("workmarket/resume.txt", "r") as myfile:      
     char_list = []
-    char_dict = {}#collections.OrderedDict()
+    char_dict = collections.OrderedDict()
     # iterate through each line of the text file
     for line in myfile:
       #split the line and convert to lowercase
@@ -32,15 +32,16 @@ def index(request):
     for char in uniq_merged:
       char_dict[char] = merged.count(char)
 
-  char_keys = char_dict.keys()
-  char_values = char_dict.values()
+  # char_keys = char_dict.keys()
+  # char_values = char_dict.values()
+  # pdb.set_trace()
   data = [go.Bar(
-            x=[char_keys],
-            y=[char_values]
+            x=char_dict.keys(),
+            y=char_dict.values()
     )]
   py.plot(data, filename='basic-bar')
 
-  # pdb.set_trace()
+  
 
 
   # merged.count('a')
