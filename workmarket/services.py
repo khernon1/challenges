@@ -1,7 +1,10 @@
 # from django.db import connection
-# from django.conf import settings
+from django.conf import settings
+# from django.core.management.base import BaseCommand
 # from workmarket import models
+from django.db import models
 from workmarket.models import Jobs
+import pdb
 
 class RunQueries():
 
@@ -9,8 +12,10 @@ class RunQueries():
     self.my_custom_sql()
 
   def my_custom_sql(self):
-    for p in Jobs.objects.raw("SELECT COUNT(agency) FROM workmarket_jobs"):
-      print p
+    Jobs.objects.all()
+    # pdb.set_trace()
+    # for p in Jobs.objects.raw("SELECT COUNT(agency) FROM workmarket_jobs"):
+      # print p
 
     # settings.configure()
     # with connection.cursor() as cursor:
