@@ -17,7 +17,7 @@ I used a Python script that can be find in the resume function of the fileparser
 ```
 ![resume_char](https://cloud.githubusercontent.com/assets/17169813/21834285/ff211dbc-d781-11e6-9261-40e16d39a5d7.png)
 
-This got me curious about what a normal breakdown is among characters so I wanted to compare it. I chose an equally important document to history, the Declaration of Independence (ok, maybe not equally), and show the breakdown below.
-This code can be found in fileparsey.py as well. The character usage is actually quite similar, with by far the biggest % difference being on H which Mr. Thomas Jefferson used almost 3x as much as me (The "We hold these truths to be self-evident" sentence alone contains 11 H's while I have only 45 total).
+This got me curious about what a normal breakdown is among characters so I wanted to compare it. I chose an equally important document to history, the Declaration of Independence (ok, maybe not equally), and show the breakdown below as a percentage of the total text.
+This code can be found in fileparsey.py as well. The character usage is actually quite similar, with by far the biggest % difference being on H which Mr. Thomas Jefferson used almost 3x as much as me (The "We hold these truths to be self-evident" sentence alone contains 25% of the total H's I have).
 
 ![resume_dec](https://cloud.githubusercontent.com/assets/17169813/21834467/59598f84-d783-11e6-9f44-c10b584e906d.png)
